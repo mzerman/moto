@@ -1,5 +1,3 @@
-import time
-
 from wrappers.base_page import BasePage
 from enum import Enum
 
