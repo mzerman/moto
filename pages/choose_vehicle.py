@@ -33,7 +33,7 @@ class ChooseVehicle(BasePage):
 
     def switch_tab(self, tab_name):
         if not isinstance(tab_name, VehicleType):
-            raise TypeError('direction must be an instance of Direction Enum')
+            raise TypeError('tab_name must be an instance of VehicleType Enum')
         self.click_element(vehicle_tab(tab_name.value))
 
     def select_brand_by_text(self, text):
